@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="form-container">
+        <form action="">
+            <div class="row">
+                <div>
+                    <label for="name">Full-Name :</label>
+                    <input type="text" required id="name" placeholder="Enter Your full name">
+                </div>
+                <div>
+                    <label for="email">Email :</label>
+                    <input type="email" required id="email" placeholder="Enter your email">
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="contact">Contact :</label>
+                    <input type="number" required id="contact" placeholder="Enter your Mobile number">
+                </div>
+                <div>
+                    <label for="password">Password :</label>
+                    <input type="password" required id="password" placeholder="Enter your password">
+                </div>
+            </div>
+            <div class="row">
+                <fieldset>
+                    <legend>Select your gender</legend>
+                    <div>
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="gender" id="other">
+                        <label for="other">Other</label>
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Select your course</legend>
+                    <div>
+                        <input type="checkbox" id="B.tech">
+                        <label for="B.tech">B.tech</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="Bsc">
+                        <label for="Bsc">Bsc</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="B.A.">
+                        <label for="B.A.">B.A.</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="row">
+                <div>
+                    <label for="dob">Date of birth</label>
+                    <input type="date" id="dob">
+                </div>
+                <div style="display: flex;">
+                    <label for="volume">Volume :</label>
+                    <div id="volume-div"><input type="range" id="volume" min="0" max="10"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div>
+                    <label for="search">Search your town :</label>
+                    <input type="search" id="search" placeholder="search your town">
+                </div>
+                <div>
+                    <label for="color">Select your favourite color : </label>
+                    <input type="color" id="color">
+                </div>
+            </div>
+
+            <div class="row">
+                <input type="submit" value="Submit">
+                <input type="reset">
+            </div>
+
+            <button >Submit</button>
+            
+        </form>
+    </section>
+</body>
+
+</html>
