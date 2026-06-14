@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid white;
+    padding: 10px;
+}
+
+th{
+    border: 1px solid wheat;
+}
