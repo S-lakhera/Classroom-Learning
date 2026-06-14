@@ -15,7 +15,7 @@ html, body{
 }
 
 table{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     border-collapse: collapse;
 }
 
@@ -26,4 +26,10 @@ th, td{
 
 th{
     border: 1px solid wheat;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
 }
