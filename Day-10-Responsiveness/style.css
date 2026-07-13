@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #ffffffd0;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 50px;
+    align-items: center;
+}
+
+.logo{
+    width: 20%;
+}
+
+.logo img{
+    width: 20%;
+    border-radius: 5px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.links li{
+    list-style: none;
+}
+
+.links li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    
+}
+
+.links li a:hover{
+    color: rgba(44, 44, 105, 0.828);
+    text-decoration: underline;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    width: 14%;
+}
+
+
+.btn button{
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+
+/* main css */
+
+main{
+    padding-top: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 40px;
+    padding: 20px;
+    place-items: center;
+}
+
+.product-card{
+    max-width: 300px;
+    min-height: 400px;
+    max-height: 500px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.product-card img{
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    height: 60%;
+}
+
+.info{
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
+    width: 100%;
+}
+
+.price{
+    color: darkcyan;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.buy-btn{
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+/* footer */
+
+footer{
+    padding: 20px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.footer-left{
+    width: 50%;
+    text-align: left;
+}
+
+.footer-right{
+    width: 50%;
+    text-align: right;
+}
