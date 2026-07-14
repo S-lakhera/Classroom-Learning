@@ -1,2 +1,7 @@
 Day-5-Resume
 Day-9-Slack
+=======
+.env
+node_modules
+.env.local
+
